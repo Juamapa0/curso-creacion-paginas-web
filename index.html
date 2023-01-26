@@ -2,13 +2,15 @@
 
     <head> <!--meta= informacion que nos erá visible-->
         <meta charset="utf-8"/><!--para utilizar caracteres como el acento-->
+        <metaname="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
         <title>Un título</title>
     </head>
 
     <body><!--todo lo que se va a ver en la página web-->
 
         <header><!--encabezado/significado semántico-->
-            <div class="image-container" id="log"><!--contenedor genérico-->
+            <div class="image-container" id="logo"><!--contenedor genérico-->
                 <img src="imagenes/logo.jpg"alt="logo" />
             </div>
         </header>
@@ -43,31 +45,31 @@
             <ul class="social-icons">
 
                 <li>
-                    <a href="#" class="social-icon" id="Linkedin">
+                    <a href="https://ar.linkedin.com/" target="_blank" class="social-icon" id="Linkedin"><!--El target sirve para abrir el enlace en una nueva pestaña-->
                         <img src="imagenes/iconos/linkedin.png"  alt="Linkedin">
                     </a>
                 </li>
 
                 <li>
-                    <a href="#" class="social-icon" id="GitHub">
-                        <img src="imagenes/iconos/github.pngTwitter"  alt="GitHub">
+                    <a href="https://github.com/" rel="noopener" class="social-icon" id="GitHub"><!--evita que el sitio vinculado reciba acceso a la página web original que se está vinculando. Esto evita que el sitio vinculado tome el control o influya de otra manera en el sitio vinculado-->
+                        <img src="imagenes/iconos/github.png"  alt="GitHub">
                     </a>
                 </li>
 
                 <li>
-                    <a href="#" class="social-icon" id="Twitter">
+                    <a href="https://twitter.com/?lang=es" reL="noreferrer" class="social-icon" id="Twitter"><!--oculta la información de referencia del sitio al que se está vinculando. Cuando un visitante del sitio hace clic en un vínculo rel=”noreferrer”, el sitio al que se vincula no sabrá a qué sitio refirió el visitante-->
                         <img src="imagenes/iconos/twitter.png"  alt="Twitter">
                     </a>
                 </li>                
 
                 <li>
-                    <a href="#" class="social-icon" id="YouTube">
+                    <a href="https://www.youtube.com/" class="social-icon" id="YouTube">
                         <img src="imagenes/iconos/youtube.png"  alt="YouTube">
                     </a>
                 </li>
 
                 <li>
-                    <a href="#" class="social-icon" id="Platzi">
+                    <a href="https://platzi.com/home" class="social-icon" id="Platzi">
                         <img src="imagenes/iconos/platzi.png"  alt="Platzi">
                     </a>
                 </li>
